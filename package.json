@@ -1,0 +1,17 @@
+{
+  "name": "card-algorithm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npx only-allow yarn",
+    "start": "npx qode src/index.js"
+  },
+  "author": "miriam",
+  "license": "ISC",
+  "dependencies": {
+    "@nodegui/nodegui": "^0.59.1",
+    "@nodegui/qode": "^18.12.1",
+    "only-allow": "^1.1.1"
+  }
+}
